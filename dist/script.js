@@ -5,7 +5,7 @@ var emojis;
 var hidden = document.createElement('canvas');
 var hiddenX = hidden.getContext('2d');
 var x = result.getContext('2d');
-let links = ["https://upload.wikimedia.org/wikipedia/commons/1/13/Michelangelo%2C_Creation_of_Adam_06.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"];
+let links = ["https://raw.githubusercontent.com/ravana69/emoji-art-makerautomatic-emoji-mosaics/main/jatayu.jpg", "https://raw.githubusercontent.com/ravana69/emoji-art-makerautomatic-emoji-mosaics/main/spiti.jpg"];
 let myURL = links[Math.floor(Math.random()*links.length)];
 
 image.addEventListener('change', main)
